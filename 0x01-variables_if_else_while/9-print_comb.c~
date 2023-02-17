@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ *main - main function
+ *Description: print all possible combination of single digit numbers
+ *Return: 0
+ */
+
+int main() {
+  int i, j;
+
+  for (i = 0; i < 10; i++) {
+    for (j = 0; j < 10; j++) {
+      printf("%d %d\n", i, j);
+    }
+  }
+
+  return 0;
+}
