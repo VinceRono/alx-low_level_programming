@@ -9,8 +9,8 @@ int count = 0;
 char c;
 while (count++ < 10)
 {
-for c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 _putchar(c);
 _putchar('\n');
-i++;
+}
 }
