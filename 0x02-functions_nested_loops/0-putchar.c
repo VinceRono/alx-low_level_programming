@@ -2,8 +2,8 @@
 
 /**
  * main - prints -putchar and adds line
- * done: by vr
- * Return 0
+ * Description: calls main to print _putchar
+ * Return: 0
  */
 
 int main(void)
