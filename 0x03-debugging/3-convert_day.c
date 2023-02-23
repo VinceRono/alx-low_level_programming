@@ -14,7 +14,7 @@ switch (month)
 {
 case 2:
 day = 31 + day;
-reak;
+break;
 case 3:
 day = 59 + day;
 break;
