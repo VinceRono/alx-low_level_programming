@@ -1,4 +1,4 @@
-nclude "holberton.h"
+#include "main.h"
 
 /**
 * _isdigit - Check for digits (0 through 9)
@@ -8,9 +8,9 @@ nclude "holberton.h"
 
 int _isdigit(int c)
 {
-if (c > 47 && c < 58)
+if (c > 47 && c < 59)
 
 return (1);
-
+else
 return (0);
 }
