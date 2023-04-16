@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * binary_to_unit - converts binary no. to unsigned int
+ * binary_to_uint - converts binary no. to unsigned int
  * @bn: binary no string
  *
  * return: new converted int
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int a;
 	unsigned int d_val = 0;
