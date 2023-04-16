@@ -19,7 +19,7 @@ void print_binary(unsigned long int n)
 			_putchar('1');
 			cnt++;
 		}
-		else if (count)
+		else if (cnt)
 			_putchar('0');
 	}
 	if (!cnt)
