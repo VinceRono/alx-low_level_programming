@@ -2,22 +2,22 @@
 
 /**
  * binary_to_uint - converts binary no. to unsigned int
- * @bn: binary no string
+ * @b: binary no string
  *
- * return: new converted int
+ * Return: new converted int
  */
 unsigned int binary_to_uint(const char *b)
 {
 	int a;
 	unsigned int d_val = 0;
 
-	if(!bn)
+	if (!b)
 		return (0);
-	for (a = 0; bn[a]; a++)
+	for (a = 0; b[a]; a++)
 	{
-		if (bn[a] < '0' || bn[a] > '1')
+		if (b[a] < '0' || b[a] > '1')
 			return (0);
-		d_val = 2 * d_val + (bn[a] - '0');
+		d_val = 2 * d_val + (b[a] - '0');
 	}
 	return (d_val);
 }
