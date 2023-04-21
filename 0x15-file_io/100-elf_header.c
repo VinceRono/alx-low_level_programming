@@ -28,7 +28,7 @@ void check_elf(unsigned char *e_ident)
 
 	for (indx = 0; indx < 4; indx++)
 	{
-		if (e_ident[index] != 127 &&
+		if (e_ident[indx] != 127 &&
 				e_ident[indx] != 'E' &&
 				e_ident[indx] != 'L' &&
 				e_ident[indx] != 'F')
